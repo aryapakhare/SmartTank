@@ -4,7 +4,6 @@ A comprehensive tank monitoring and simulation system designed for instrumentati
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PySide6](https://img.shields.io/badge/PySide6-6.0%2B-green)
-![License](https://img.shields.io/badge/license-MIT-orange)
 
 ---
 

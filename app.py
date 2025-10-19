@@ -13,7 +13,7 @@ from PySide6.QtGui import QColor
 
 def apply_theme(app):
     try:
-        with open("themes/dracula.qss", "r") as file:
+        with open("dracula.qss", "r") as file:
             app.setStyleSheet(file.read())
     except Exception:
         pass
@@ -438,4 +438,5 @@ if __name__ == "__main__":
     apply_theme(app)  # Optional if you want to apply a theme
     window = TankApp()
     window.show()
+
     sys.exit(app.exec())
